@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/M1113R/alura-node/issues"
   },
-  "homepage": "https://github.com/M1113R/alura-node#readme"
+  "homepage": "https://github.com/M1113R/alura-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
